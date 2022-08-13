@@ -18,9 +18,9 @@ html {
 }
 
 body {
-	background: $white;
+	background: $darkGray;
   font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  color: $white;
 }
 
 .container {
@@ -32,7 +32,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $darkerGray;
+  color: $white;
   font-weight: bold;
 
   line-height: 1.7;
@@ -61,7 +61,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: $gray;
+  color: $white;
 }
 
 p {
@@ -91,7 +91,7 @@ ol {
 }
 
 ol ul, ul ol, ul ul, ol ol {
-  margin: 0;
+  margin: 0 0 20px;
 }
 
 ul ul, ol ul {
@@ -110,6 +110,11 @@ img {
   max-width: 100%;
 }
 
+my {
+  color: #FFA500;
+  display: inline;
+}
+
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
@@ -117,7 +122,7 @@ img {
 
 .date {
   font-style: italic;
-  color: $gray;
+  color: $white;
 }
 
 // Specify the color of the selection
@@ -156,7 +161,7 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid $white;
 
   @include mobile {
     text-align: center;
@@ -182,6 +187,7 @@ img {
 
 .site-info {
   float: left;
+  color: $blue;
 
   @include mobile {
     float: none;
@@ -192,7 +198,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: $white;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -202,7 +208,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: #FFA500;
   font-size: 16px;
 
   @include mobile {
@@ -225,7 +231,7 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: $white;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
@@ -275,7 +281,7 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  background-color: $black;
 }
 
 footer {
