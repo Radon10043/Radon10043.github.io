@@ -97,7 +97,7 @@ relative_links:
 
 titles_from_headings:
   strip_title:         true
-  collections:         true
+  collections:         false
 
 compress_html:
   comments:            ["<!-- ", " -->"]
